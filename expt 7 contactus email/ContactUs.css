@@ -1,0 +1,26 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.emailForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.emailForm label, 
+.emailForm input, 
+.emailForm textarea {
+    margin-bottom: 15px;
+}
+
+.emailForm input, 
+.emailForm textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

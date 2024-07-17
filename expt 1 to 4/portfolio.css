@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(221, 195, 92);
+    padding: 10px;
+    text-align: center;
+}
+
+
+th:nth-child(1) {
+    width: 50px;
+}
+
+th:nth-child(3) {
+    width: 400px;
+}
+
+nav {
+    background-color: rgb(231, 229, 223);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(13, 12, 12);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.about-me img {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.education,
+.projects,
+.contact
+.techskills {
+    margin-top: 30px;
+}
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    table-layout: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+
+.card {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 20%;
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
